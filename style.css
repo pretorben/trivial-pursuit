@@ -1,0 +1,52 @@
+table {
+  width: 800px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.colorBar {
+  height: 35px;
+}
+
+#blue {
+  background-color: blue;
+}
+#pink {
+  background-color: pink;
+}
+#yellow {
+  background-color: yellow;
+}
+#brown {
+  background-color: brown;
+}
+#green {
+  background-color: green;
+}
+#orange {
+  background-color: orange;
+}
+
+.question {
+  text-align: center;
+  height: 50px;
+}
+
+.answer {
+  text-align: left;
+  height: 100px;
+}
+
+.confirmation {
+  text-align: center;
+  background-color: red;
+  height: 35px;
+}
+
+.spacer   {
+  text-align: center;
+  background-color: grey;
+  height: 20px;
+}

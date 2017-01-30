@@ -37,30 +37,34 @@ $(document).ready(function() {
   console.log(blueA3);
   console.log(blueA4);
 
-if (blueA1 = blueQ1) {
-  $("#blueFb").css("background-color", "green");
-} else if (blueA2 = blueQ1) {
-  $("#blueFb").css("background-color", "green");
-} else if (blueA3 = blueQ1) {
-  $("#blueFb").css("background-color", "green");
-} else if (blueA4 = blueQ1) {
-  $("#blueFb").css("background-color", "green");
+// IF ELSE comparing Q value with Answer values
+
+$('button[name="bA1"]').click();
+  if (blueA1 == blueQ1) {
+    $("#blueFb").css("background-color", "green");
+  } else {
+    $("#blueFb").css("background-color", "red");
   }
 
+$('button[name="bA2"]').click();
+  if (blueA2 == blueQ1) {
+    $("#blueFb").css("background-color", "green");
+  } else {
+    $("#blueFb").css("background-color", "red");
+  }
 
+$('button[name="bA3"]').click();
+  if (blueA3 == blueQ1) {
+    $("#blueFb").css("background-color", "green");
+  } else {
+    $("#blueFb").css("background-color", "red");
+  }
 
+$('button[name="bA4"]').click();
+  if (blueA4 == blueQ1) {
+    $("#blueFb").css("background-color", "green");
+  } else {
+    $("#blueFb").css("background-color", "red");
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-})
+});

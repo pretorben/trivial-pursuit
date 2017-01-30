@@ -6,6 +6,12 @@ table, th, td {
   border: 1px solid black;
 }
 
+button {
+  margin: 0 auto;
+  font-size: 22px;
+  width: 90%;
+}
+
 .colorBar {
   height: 35px;
 }
@@ -39,7 +45,7 @@ table, th, td {
   height: 100px;
 }
 
-.confirmation {
+.feedback {
   text-align: center;
   background-color: red;
   height: 35px;

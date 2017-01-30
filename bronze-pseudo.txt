@@ -1,0 +1,48 @@
+/*/Project 1 - Trivial Pursuit: Bronze Edition
+
+DESIGN: Table 3 cells x 2 cells
+
+  Each cell divided into 4 parts:
+    - color band (denotes question category)
+    - Question band
+    - 4 buttons each with a multiple choice answer; stacked 1 x 4
+    - "Correct" or "Try Again" feedback box; changes green if answer chosen is correct & red if answer chosen is incorrect
+
+"color"Button1
+"color"Button2
+"color"Button3
+"color"Button4
+
+GAMEPLAY:
+
+Read question
+Click answer button
+Feedback cell changes color based on answer selected
+  - Green = Correct
+  - Red = Try Again
+
+Repeat for each color
+
+When all feedback cells are green you win
+
+ACTIONS:
+
+Read question
+  Select correct answer
+
+  click answer button
+
+    IF answer selected EQUALS CORRECT answer
+      THEN feedback cell TURNS GREEN
+    ELSE
+      feedback cell TURNS RED
+
+
+
+
+
+
+
+
+
+/*/

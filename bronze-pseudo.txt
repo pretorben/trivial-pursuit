@@ -27,16 +27,42 @@ When all feedback cells are green you win
 
 ACTIONS:
 
+Assign value to question
+  blueQ = 1
+
+
+Assign value to each answer with correct answer value corresponding to value of question
+  - bA1 = 0
+  - bA2 = 1
+  - bA3 = 0
+  - bA4 = 0
+
 Read question
   Select correct answer
 
   click answer button
 
+______________________________________
+EXAMPLE:
     IF answer selected EQUALS CORRECT answer
       THEN feedback cell TURNS GREEN
     ELSE
       feedback cell TURNS RED
+______________________________________
 
+      IF bA1 = blueQ
+        THEN feedback TURNS GREEN
+      ELSE IF
+        bA2 = blueQ
+          THEN feedback TURNS GREEN
+      ELSE IF
+        bA3 = blueQ
+          THEN feedback TURNS GREEN
+      ELSE IF
+        bA4 = blueQ
+          THEN feedback TURNS GREEN
+      ELSE
+        feedback TURNS RED
 
 
 

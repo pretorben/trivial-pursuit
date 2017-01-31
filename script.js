@@ -75,15 +75,15 @@ $("#bA3").click(function(){
   }
 });
 
-//PINK Q&A
-
-$("#pA4").click(function(){
-  if (pinkA4 == pinkQ1) {
-    $("#pinkFb").css("background-color", "green");
+$("#bA4").click(function(){
+  if (blueA4 == blueQ1) {
+    $("#blueFb").css("background-color", "green");
   } else {
-    $("#pinkFb").css("background-color", "red");
+    $("#blueFb").css("background-color", "red");
   }
 });
+
+//PINK Q&A
 
 $("#pA1").click(function(){
   if (pinkA1 == pinkQ1) {
@@ -276,5 +276,8 @@ $("#oA4").click(function(){
     $("#orangeFb").css("background-color", "red");
   }
 });
+
+//$("#reload").location.reload();
+
 
 });

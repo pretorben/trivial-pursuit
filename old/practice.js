@@ -60,13 +60,18 @@ var blueQuestions = [
   }
 ]
 
+//Radomize Question w/in a color category
+
 blueQuestions.sort(function(a, b){return 0.5 - Math.random()});
 
-var blueRandomValueQ = blueQuestions[1].blueQ; //[Math.floor(Math.random() * blueQuestions.length)];
+var random = Math.floor(Math.random() * blueQuestions.length);
+var randomBq = blueQuestions[random].blueQ;
 
-//Need to randomize order of corAns, det1, det2, det3
+$("#blueQ").text(randomBq);
 
-// "#blueQ"=blueRandomValueQ
-//""#ba1"=blueRandomValueA
+console.log(randomBq);
 
-console.log(blueRandomValueQ);
+//FOCUS ON GETTING RANDOM QUESTIONS TO LOAD w/ STATIC ANSWER GROUPS
+//NEED SCORECARD
+//NEED TIMER
+//NEED TO PROGRAM RESET BUTTON

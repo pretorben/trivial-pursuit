@@ -9,7 +9,11 @@ table, th, td {
 button {
   margin: 0 auto;
   font-size: 18px;
-  width: 90%;
+  width: 100%;
+}
+
+#reload {
+  width: 25%
 }
 
 .colorBar {

@@ -38,34 +38,29 @@ Assign value to each answer with correct answer value corresponding to value of 
   - bA4 = 0
 
 Read question
-  Select correct answer
+  decide which is correct answer
 
   click answer button
 
+WHEN user clicks ANY answer button
+  IF button value = question value
+    THEN feedback TURNS green
+
+  ELSE feedback TURNS RED
+
+
 ______________________________________
 EXAMPLE:
-    IF answer selected EQUALS CORRECT answer
-      THEN feedback cell TURNS GREEN
-    ELSE
-      feedback cell TURNS RED
+
+User clicks BLUE ANSWER BUTTON 1 (bA1)
+  IF bA1 = blueQ
+    THEN feedback TURNS GREEN
+  ELSE
+    feedback TURNS RED
 ______________________________________
 
-      IF bA1 = blueQ
-        THEN feedback TURNS GREEN
-      ELSE IF
-        bA2 = blueQ
-          THEN feedback TURNS GREEN
-      ELSE IF
-        bA3 = blueQ
-          THEN feedback TURNS GREEN
-      ELSE IF
-        bA4 = blueQ
-          THEN feedback TURNS GREEN
-      ELSE
-        feedback TURNS RED
-
-
-
+WHEN button LOSES FOCUS
+  feedback TURNS WHITE
 
 
 

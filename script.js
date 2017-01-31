@@ -1,23 +1,3 @@
-// get value assigned to button OLD
-  // $('button[name="bA1"]').click(function(){
-  //   var value=$(this).attr("value");
-  //   console.log(value);
-  // });
-  //
-  // $('button[name="bA2"]').click(function(){
-  //   var value=$(this).attr("value");
-  //   console.log(value);
-  // });
-  //
-  // $('button[name="bA3"]').click(function(){
-  //   var value=$(this).attr("value");
-  //   console.log(value);
-  // });
-  //
-  // $('button[name="bA4"]').click(function(){
-  //   var value=$(this).attr("value");
-  //   console.log(value);
-
 $(document).ready(function() {
 
 //get value assigned to a question
@@ -37,34 +17,14 @@ $(document).ready(function() {
   console.log(blueA3);
   console.log(blueA4);
 
-// IF ELSE comparing Q value with Answer values
+//user clicks button; COMPARE button value to question value; IF equal THEN change feedback to green, ELSE change feedback to red
 
-$('button[name="bA1"]').click();
-  if (blueA1 == blueQ1) {
+$('button[name="bA1]"]').click(function(){
+  if ("blueA1" == "blueQ1") {
     $("#blueFb").css("background-color", "green");
   } else {
     $("#blueFb").css("background-color", "red");
   }
-
-$('button[name="bA2"]').click();
-  if (blueA2 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
-  } else {
-    $("#blueFb").css("background-color", "red");
-  }
-
-$('button[name="bA3"]').click();
-  if (blueA3 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
-  } else {
-    $("#blueFb").css("background-color", "red");
-  }
-
-$('button[name="bA4"]').click();
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
-  } else {
-    $("#blueFb").css("background-color", "red");
-  }
+})
 
 });

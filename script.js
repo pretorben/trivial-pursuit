@@ -2,14 +2,14 @@ $(document).ready(function() {
 
 //get value assigned to a question
 
-  var blueQ1=$('td[name="blueQ"]').attr("value");
+  var blueQ1=$("#blueQ").attr("value");
 
 // get value assigned to button
 
-  var blueA1=$('button[name="bA1"]').attr("value");
-  var blueA2=$('button[name="bA2"]').attr("value");
-  var blueA3=$('button[name="bA3"]').attr("value");
-  var blueA4=$('button[name="bA4"]').attr("value");
+  var blueA1=$("#bA1").attr("value");
+  var blueA2=$("#bA2").attr("value");
+  var blueA3=$("#bA3").attr("value");
+  var blueA4=$("#bA4").attr("value");
 
   console.log(blueQ1);
   console.log(blueA1);
@@ -19,12 +19,22 @@ $(document).ready(function() {
 
 //user clicks button; COMPARE button value to question value; IF equal THEN change feedback to green, ELSE change feedback to red
 
-$('button[name="bA1]"]').click(function(){
+$("#bA1").click(function(){
+  // $("#blueFb").css("background-color", "green");
   if ("blueA1" == "blueQ1") {
     $("#blueFb").css("background-color", "green");
   } else {
     $("#blueFb").css("background-color", "red");
   }
-})
+});
+
+$("#bA2").click(function(){
+  // $("#blueFb").css("background-color", "green");
+  if ("blueA2" == "blueQ1") {
+    $("#blueFb").css("background-color", "green");
+  } else {
+    $("#blueFb").css("background-color", "red");
+  }
+});
 
 });

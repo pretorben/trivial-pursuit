@@ -41,9 +41,9 @@ $(document).ready(function() {
   var orangeA3=$("#oA3").attr("value");
   var orangeA4=$("#oA4").attr("value");
 
-  console.log(blueQ1);
-  console.log(blueA1);
-  console.log(blueA2);
+  console.log(brownQ1);
+  console.log(orangeA1);
+  console.log(greenA2);
   console.log(blueA3);
   console.log(blueA4);
 
@@ -52,7 +52,6 @@ $(document).ready(function() {
 //BLUE Q & A
 
 $("#bA1").click(function(){
-  // $("#blueFb").css("background-color", "green");
   if (blueA1 == blueQ1) {
     $("#blueFb").css("background-color", "green");
   } else {
@@ -61,7 +60,6 @@ $("#bA1").click(function(){
 });
 
 $("#bA2").click(function(){
-  // $("#blueFb").css("background-color", "green");
   if (blueA2 == blueQ1) {
     $("#blueFb").css("background-color", "green");
   } else {
@@ -70,7 +68,6 @@ $("#bA2").click(function(){
 });
 
 $("#bA3").click(function(){
-  // $("#blueFb").css("background-color", "green");
   if (blueA3 == blueQ1) {
     $("#blueFb").css("background-color", "green");
   } else {
@@ -80,236 +77,211 @@ $("#bA3").click(function(){
 
 //PINK Q&A
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#pA4").click(function(){
+  if (pinkA4 == pinkQ1) {
+    $("#pinkFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#pinkFb").css("background-color", "red");
   }
 });
 
-$("#bA1").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA1 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#pA1").click(function(){
+  if (pinkA1 == pinkQ1) {
+    $("#pinkFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#pinkFb").css("background-color", "red");
   }
 });
 
-$("#bA2").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA2 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#pA2").click(function(){
+  if (pinkA2 == pinkQ1) {
+    $("#pinkFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#pinkFb").css("background-color", "red");
   }
 });
 
-$("#bA3").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA3 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#pA3").click(function(){
+  if (pinkA3 == pinkQ1) {
+    $("#pinkFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#pinkFb").css("background-color", "red");
   }
 });
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#pA4").click(function(){
+  if (pinkA4 == pinkQ1) {
+    $("#pinkFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#pinkFb").css("background-color", "red");
   }
 });
 
 //YELLOW Q&A
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#yA4").click(function(){
+  if (yellowA4 == yellowQ1) {
+    $("#yellowFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#yellowFb").css("background-color", "red");
   }
 });
 
-$("#bA1").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA1 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#yA1").click(function(){
+  if (yellowA1 == yellowQ1) {
+    $("#yellowFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#yellowFb").css("background-color", "red");
   }
 });
 
-$("#bA2").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA2 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#yA2").click(function(){
+  if (yellowA2 == yellowQ1) {
+    $("#yellowFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#yellowFb").css("background-color", "red");
   }
 });
 
-$("#bA3").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA3 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#yA3").click(function(){
+  if (yellowA3 == yellowQ1) {
+    $("#yellowFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#yellowFb").css("background-color", "red");
   }
 });
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#yA4").click(function(){
+  if (yellowA4 == yellowQ1) {
+    $("#yellowFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#yellowFb").css("background-color", "red");
   }
 });
 
 //BROWN Q&A
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#brA4").click(function(){
+  if (brownA4 == brownQ1) {
+    $("#brownFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#brownFb").css("background-color", "red");
   }
 });
 
-$("#bA1").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA1 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#brA1").click(function(){
+  if (brownA1 == brownQ1) {
+    $("#brownFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#brownFb").css("background-color", "red");
   }
 });
 
-$("#bA2").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA2 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#brA2").click(function(){
+  if (brownA2 == brownQ1) {
+    $("#brownFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#brownFb").css("background-color", "red");
   }
 });
 
-$("#bA3").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA3 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#brA3").click(function(){
+  if (brownA3 == brownQ1) {
+    $("#brownFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#brownFb").css("background-color", "red");
   }
 });
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#brA4").click(function(){
+  if (brownA4 == brownQ1) {
+    $("#brownFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#brownFb").css("background-color", "red");
   }
 });
 
 //GREEN Q&A
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#gA4").click(function(){
+  if (greenA4 == greenQ1) {
+    $("#greenFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#greenFb").css("background-color", "red");
   }
 });
 
-$("#bA1").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA1 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#gA1").click(function(){
+  if (greenA1 == greenQ1) {
+    $("#greenFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#greenFb").css("background-color", "red");
   }
 });
 
-$("#bA2").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA2 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#gA2").click(function(){
+  if (greenA2 == greenQ1) {
+    $("#greenFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#greenFb").css("background-color", "red");
   }
 });
 
-$("#bA3").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA3 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#gA3").click(function(){
+  if (greenA3 == greenQ1) {
+    $("#greenFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#greenFb").css("background-color", "red");
   }
 });
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#gA4").click(function(){
+  if (greenA4 == greenQ1) {
+    $("#greenFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#greenFb").css("background-color", "red");
   }
 });
 
 //ORANGE Q&A
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#oA4").click(function(){
+  if (orangeA4 == orangeQ1) {
+    $("#orangeFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#orangeFb").css("background-color", "red");
   }
 });
 
-$("#bA1").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA1 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#oA1").click(function(){
+  if (orangeA1 == orangeQ1) {
+    $("#orangeFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#orangeFb").css("background-color", "red");
   }
 });
 
-$("#bA2").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA2 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#oA2").click(function(){
+  if (orangeA2 == orangeQ1) {
+    $("#orangeFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#orangeFb").css("background-color", "red");
   }
 });
 
-$("#bA3").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA3 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#oA3").click(function(){
+  if (orangeA3 == orangeQ1) {
+    $("#orangeFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#orangeFb").css("background-color", "red");
   }
 });
 
-$("#bA4").click(function(){
-  // $("#blueFb").css("background-color", "green");
-  if (blueA4 == blueQ1) {
-    $("#blueFb").css("background-color", "green");
+$("#oA4").click(function(){
+  if (orangeA4 == orangeQ1) {
+    $("#orangeFb").css("background-color", "green");
   } else {
-    $("#blueFb").css("background-color", "red");
+    $("#orangeFb").css("background-color", "red");
   }
 });
 

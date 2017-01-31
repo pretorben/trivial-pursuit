@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 $("#bA1").click(function(){
   // $("#blueFb").css("background-color", "green");
-  if ("blueA1" == "blueQ1") {
+  if (blueA1 == blueQ1) {
     $("#blueFb").css("background-color", "green");
   } else {
     $("#blueFb").css("background-color", "red");
@@ -30,7 +30,25 @@ $("#bA1").click(function(){
 
 $("#bA2").click(function(){
   // $("#blueFb").css("background-color", "green");
-  if ("blueA2" == "blueQ1") {
+  if (blueA2 == blueQ1) {
+    $("#blueFb").css("background-color", "green");
+  } else {
+    $("#blueFb").css("background-color", "red");
+  }
+});
+
+$("#bA3").click(function(){
+  // $("#blueFb").css("background-color", "green");
+  if (blueA3 == blueQ1) {
+    $("#blueFb").css("background-color", "green");
+  } else {
+    $("#blueFb").css("background-color", "red");
+  }
+});
+
+$("#bA4").click(function(){
+  // $("#blueFb").css("background-color", "green");
+  if (blueA4 == blueQ1) {
     $("#blueFb").css("background-color", "green");
   } else {
     $("#blueFb").css("background-color", "red");

@@ -6,7 +6,7 @@ $(document).ready(function() {
   var pinkQ1=$("#pinkQ").attr("value");
   var yellowQ1=$("#yellowQ").attr("value");
   var brownQ1=$("#brownQ").attr("value");
-  var greenQ1=$("#greenQ").attr("value");
+  var purpleQ1=$("#purpleQ").attr("value");
   var orangeQ1=$("#orangeQ").attr("value");
 
 // get value assigned to button
@@ -31,10 +31,10 @@ $(document).ready(function() {
   var brownA3=$("#brA3").attr("value");
   var brownA4=$("#brA4").attr("value");
 
-  var greenA1=$("#gA1").attr("value");
-  var greenA2=$("#gA2").attr("value");
-  var greenA3=$("#gA3").attr("value");
-  var greenA4=$("#gA4").attr("value");
+  var purpleA1=$("#puA1").attr("value");
+  var purpleA2=$("#puA2").attr("value");
+  var purpleA3=$("#puA3").attr("value");
+  var purpleA4=$("#puA4").attr("value");
 
   var orangeA1=$("#oA1").attr("value");
   var orangeA2=$("#oA2").attr("value");
@@ -43,11 +43,11 @@ $(document).ready(function() {
 
   console.log(brownQ1);
   console.log(orangeA1);
-  console.log(greenA2);
+  console.log(purpleA2);
   console.log(blueA3);
   console.log(blueA4);
 
-//user clicks button; COMPARE button value to question value; IF equal THEN change feedback to green, ELSE change feedback to red
+//user clicks button; COMPARE button value to question value; IF equal THEN change feedback to purple, ELSE change feedback to red
 
 //BLUE Q & A
 
@@ -201,45 +201,37 @@ $("#brA4").click(function(){
   }
 });
 
-//GREEN Q&A
+//PURPLE Q&A
 
-$("#gA4").click(function(){
-  if (greenA4 == greenQ1) {
-    $("#greenFb").css("background-color", "green");
+$("#puA1").click(function(){
+  if (purpleA1 == purpleQ1) {
+    $("#purpleFb").css("background-color", "green");
   } else {
-    $("#greenFb").css("background-color", "red");
+    $("#purpleFb").css("background-color", "red");
   }
 });
 
-$("#gA1").click(function(){
-  if (greenA1 == greenQ1) {
-    $("#greenFb").css("background-color", "green");
+$("#puA2").click(function(){
+  if (purpleA2 == purpleQ1) {
+    $("#purpleFb").css("background-color", "green");
   } else {
-    $("#greenFb").css("background-color", "red");
+    $("#purpleFb").css("background-color", "red");
   }
 });
 
-$("#gA2").click(function(){
-  if (greenA2 == greenQ1) {
-    $("#greenFb").css("background-color", "green");
+$("#puA3").click(function(){
+  if (purpleA3 == purpleQ1) {
+    $("#purpleFb").css("background-color", "green");
   } else {
-    $("#greenFb").css("background-color", "red");
+    $("#purpleFb").css("background-color", "red");
   }
 });
 
-$("#gA3").click(function(){
-  if (greenA3 == greenQ1) {
-    $("#greenFb").css("background-color", "green");
+$("#puA4").click(function(){
+  if (purpleA4 == purpleQ1) {
+    $("#purpleFb").css("background-color", "green");
   } else {
-    $("#greenFb").css("background-color", "red");
-  }
-});
-
-$("#gA4").click(function(){
-  if (greenA4 == greenQ1) {
-    $("#greenFb").css("background-color", "green");
-  } else {
-    $("#greenFb").css("background-color", "red");
+    $("#purpleFb").css("background-color", "red");
   }
 });
 

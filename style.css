@@ -28,8 +28,8 @@ button {
 #brown {
   background-color: brown;
 }
-#green {
-  background-color: green;
+#purple {
+  background-color: purple;
 }
 #orange {
   background-color: orange;
@@ -48,7 +48,7 @@ button {
 
 .feedback {
   text-align: center;
-  background-color: purple;
+  background-color: tan;
   height: 35px;
 }
 

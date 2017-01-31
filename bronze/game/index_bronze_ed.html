@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Trivial Pursuit: Bronze Edition</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <!-- <p>Q: Lassie was what kind of dog?</p>
+      <ul>
+        <li>Labrador Retriever</li>
+        <li>Collie</li>
+        <li>Great Dane</li>
+        <li>Poodle</li>
+      </ul> -->
+
+    <table>
+      <tr class="colorBar">
+        <th id="blue"></th>
+        <th id="pink"></th>
+        <th id="yellow"></th>
+      </tr>
+      <tr class="question">
+        <td id="blueQ" value="1">What kind of dog is Scooby Doo?</td>
+        <td id="pinkQ" value="1">Who lives in a pinapple under the sea?</td>
+        <td id="yellowQ" value="1">What is the name of the Green Day Broadway musical?</td>
+      </tr>
+      <tr class="answer">
+        <td id="blueAnswers">
+            <button id="bA1" value="0">Yellow Lab</button></li>
+            <button id="bA2" value="0">Collie</button></li>
+            <button id="bA3" value="1">Great Dane</button></li>
+            <button id="bA4" value="0">Mutt</button></li>
+        </td>
+        <td id="pinkAnswers">
+            <button id="pA1" value="0">Sandy Cheeks</button></li>
+            <button id="pA2" value="1">Spongebob Square Pants</button></li>
+            <button id="pA3" value="0">Patrick Star</button></li>
+            <button id="pA4" value="0">Mr. Crabs</button></li>
+        </td>
+        <td id="yellowAnswers">
+            <button id="yA1" value="0">21 Guns</button></li>
+            <button id="yA2" value="0">Warning</button></li>
+            <button id="yA3" value="0">Jesus of Suburbia</button></li>
+            <button id="yA4" value="1">American Idiot</button></li>
+        </td>
+      </tr>
+      <tr class="feedback">
+        <td id="blueFb"></td>
+        <td id="pinkFb"></td>
+        <td id="yellowFb"></td>
+      </tr>
+      <tr class="spacer">
+        <td colspan="3"></td>
+      </tr>
+      <tr class="colorBar">
+        <th id="brown"></th>
+        <th id="green"></th>
+        <th id="orange"></th>
+      </tr>
+      <tr class="question">
+        <td id="brownQ" value="1">What is the Teenage Mutant Ninja Turtle's favorite food?</td>
+        <td id="greenQ" value="1">How many states are there in the USA?</td>
+        <td id="orangeQ" value="1">What kind of beer does Homer Simpson drink?</td>
+      </tr>
+      <tr class="answer">
+        <td id="brownAnswers">
+            <button id="brA1" value="1">pizza</button></li>
+            <button id="brA2" value="0">brownies</button></li>
+            <button id="brA3" value="0">potato chips</button></li>
+            <button id="brA4" value="0">peanut butter</button></li>
+        </td>
+        <td id="greenAnswers">
+            <button id="gA1" value="0">51</button></li>
+            <button id="gA2" value="0">49</button></li>
+            <button id="gA3" value="1">50</button></li>
+            <button id="gA4" value="0">52</button></li>
+        </td>
+        <td id="orangeAnswers">
+            <button id="oA1" value="0">Patriot Ale</button></li>
+            <button id="oA2" value="1">Duff</button></li>
+            <button id="oA3" value="0">Budsmiser</button></li>
+            <button id="oA4" value="0">Filler Light</button></li>
+        </td>
+      </tr>
+      <tr class="feedback">
+        <td id="brownFb">brownFeedback</td>
+        <td id="greenFb">greenFeedback</td>
+        <td id="orangeFb">orangeFeedback</td>
+      </tr>
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src = "script.js"></script>
+  </body>
+</html>

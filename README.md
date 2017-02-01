@@ -29,10 +29,9 @@
   </ul>
 
 <h2>User Stories:</h2>
-
-<ul>As a user:</ul>
-   <li>I should be able to reset the game when I want.</li>
-   <li>I should be able to keep track of the questions I answered correctly.</li>
-   <li>I should get positive feedback if I answer a question correctly or incorrectly.</li>
-   <li>I should be able to tell which questions I have already answered whether correctly or incorrectly.</li>
-   <li>I should be able to tell how much time I have left until the unanswered/incorrect questions shuffle again.</li>
+  <ul>As a user:</ul>
+    <li>I should be able to reset the game when I want.</li>
+    <li>I should be able to keep track of the questions I answered correctly.</li>
+    <li>I should get positive feedback if I answer a question correctly or incorrectly.</li>
+    <li>I should be able to tell which questions I have already answered whether correctly or incorrectly.</li>
+    <li>I should be able to tell how much time I have left until the unanswered/incorrect questions shuffle again.</li>

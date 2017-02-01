@@ -14,9 +14,9 @@
         <th id="yellow"></th>
       </tr>
       <tr class="question">
-        <td id="blueQ" value="1">What kind of dog is Scooby Doo?</td>
-        <td id="pinkQ" value="1">Who lives in a pinapple under the sea?</td>
-        <td id="yellowQ" value="1">What is the name of the Green Day Broadway musical?</td>
+        <td id="blueQ" data-bq="1">What kind of dog is Scooby Doo?</td>
+        <td id="pinkQ" data-pq="1">Who lives in a pinapple under the sea?</td>
+        <td id="yellowQ" data-yq="1">What is the name of the Green Day Broadway musical?</td>
       </tr>
       <tr class="answer">
         <td id="blueAnswers">
@@ -52,9 +52,9 @@
         <th id="orange"></th>
       </tr>
       <tr class="question">
-        <td id="brownQ" value="1">What is the Teenage Mutant Ninja Turtle's favorite food?</td>
-        <td id="purpleQ" value="1">How many states are there in the USA?</td>
-        <td id="orangeQ" value="1">What kind of beer does Homer Simpson drink?</td>
+        <td id="brownQ" data-brq="1">What is the Teenage Mutant Ninja Turtle's favorite food?</td>
+        <td id="purpleQ" data-puq="1">How many states are there in the USA?</td>
+        <td id="orangeQ" data-oq="1">What kind of beer does Homer Simpson drink?</td>
       </tr>
       <tr class="answer">
         <td id="brownAnswers">
@@ -81,8 +81,12 @@
         <td id="purpleFb"></td>
         <td id="orangeFb"></td>
       </tr>
-
-    <button id="reload">Try Again</button>
+      <tr>
+        <td colspan="3">
+          <button id="reload">Try Again</button>
+        </td>
+      </tr>
+    </table>
 
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

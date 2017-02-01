@@ -2,12 +2,12 @@ $(document).ready(function() {
 
 //get value assigned to a question
 
-  var blueQ1=$("#blueQ").attr("value");
-  var pinkQ1=$("#pinkQ").attr("value");
-  var yellowQ1=$("#yellowQ").attr("value");
-  var brownQ1=$("#brownQ").attr("value");
-  var purpleQ1=$("#purpleQ").attr("value");
-  var orangeQ1=$("#orangeQ").attr("value");
+  var blueQ1=$("#blueQ").attr("data-bq");
+  var pinkQ1=$("#pinkQ").attr("data-pq");
+  var yellowQ1=$("#yellowQ").attr("data-yq");
+  var brownQ1=$("#brownQ").attr("data-brq");
+  var purpleQ1=$("#purpleQ").attr("data-puq");
+  var orangeQ1=$("#orangeQ").attr("data-oq");
 
 // get value assigned to button
 
@@ -277,7 +277,11 @@ $("#oA4").click(function(){
   }
 });
 
-//$("#reload").location.reload();
+//reloads the page using the "Try Again" button
+$("#reload").click(function(){
+  location.reload(true);
+});
+
 
 
 });

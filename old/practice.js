@@ -15,7 +15,7 @@
 var blueQuestions = [
   {
     name:"blueQ1",
-    value:"1",
+    bqvalue:"1",
     blueQ:"What color is the sky?",
     corAns:"blue",
     det1:"yellow",
@@ -24,7 +24,7 @@ var blueQuestions = [
   },
   {
     name:"blueQ2",
-    value:"1",
+    bqvalue:"1",
     blueQ:"What color are grapes?",
     corAns:"green",
     det1:"yellow",
@@ -33,7 +33,7 @@ var blueQuestions = [
   },
   {
     name:"blueQ3",
-    value:"1",
+    bqvalue:"1",
     blueQ:"What color are carrots?",
     corAns:"orange",
     det1:"yellow",
@@ -42,7 +42,7 @@ var blueQuestions = [
   },
   {
     name:"blueQ4",
-    value:"1",
+    bqvalue:"1",
     blueQ:"What color is the sun?",
     corAns:"yellow",
     det1:"blue",
@@ -51,7 +51,7 @@ var blueQuestions = [
   },
   {
     name:"blueQ5",
-    value:"1",
+    bqvalue:"1",
     blueQ:"What color are roses?",
     corAns:"red",
     det1:"blue",
@@ -71,7 +71,12 @@ $("#blueQ").text(randomBq);
 
 console.log(randomBq);
 
+//Need to pull name of randomBq so can pull corresponding answers
+
+
+
+console.log(blueQiD);
+
 //FOCUS ON GETTING RANDOM QUESTIONS TO LOAD w/ STATIC ANSWER GROUPS
 //NEED SCORECARD
 //NEED TIMER
-//NEED TO PROGRAM RESET BUTTON

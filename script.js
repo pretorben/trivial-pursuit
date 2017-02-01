@@ -11,35 +11,35 @@ $(document).ready(function() {
 
 // get value assigned to button
 
-  var blueA1=$("#bA1").attr("value");
-  var blueA2=$("#bA2").attr("value");
-  var blueA3=$("#bA3").attr("value");
-  var blueA4=$("#bA4").attr("value");
+  var blueA1=$("#bA1").attr("data-ba1");
+  var blueA2=$("#bA2").attr("data-ba2");
+  var blueA3=$("#bA3").attr("data-ba3");
+  var blueA4=$("#bA4").attr("data-ba4");
 
-  var pinkA1=$("#pA1").attr("value");
-  var pinkA2=$("#pA2").attr("value");
-  var pinkA3=$("#pA3").attr("value");
-  var pinkA4=$("#pA4").attr("value");
+  var pinkA1=$("#pA1").attr("data-pa1");
+  var pinkA2=$("#pA2").attr("data-pa2");
+  var pinkA3=$("#pA3").attr("data-pa3");
+  var pinkA4=$("#pA4").attr("data-pa4");
 
-  var yellowA1=$("#yA1").attr("value");
-  var yellowA2=$("#yA2").attr("value");
-  var yellowA3=$("#yA3").attr("value");
-  var yellowA4=$("#yA4").attr("value");
+  var yellowA1=$("#yA1").attr("data-ya1");
+  var yellowA2=$("#yA2").attr("data-ya2");
+  var yellowA3=$("#yA3").attr("data-ya3");
+  var yellowA4=$("#yA4").attr("data-ya4");
 
-  var brownA1=$("#brA1").attr("value");
-  var brownA2=$("#brA2").attr("value");
-  var brownA3=$("#brA3").attr("value");
-  var brownA4=$("#brA4").attr("value");
+  var brownA1=$("#brA1").attr("data-bra1");
+  var brownA2=$("#brA2").attr("data-bra2");
+  var brownA3=$("#brA3").attr("data-bra3");
+  var brownA4=$("#brA4").attr("data-bra4");
 
-  var purpleA1=$("#puA1").attr("value");
-  var purpleA2=$("#puA2").attr("value");
-  var purpleA3=$("#puA3").attr("value");
-  var purpleA4=$("#puA4").attr("value");
+  var purpleA1=$("#puA1").attr("data-pua1");
+  var purpleA2=$("#puA2").attr("data-pua2");
+  var purpleA3=$("#puA3").attr("data-pua3");
+  var purpleA4=$("#puA4").attr("data-pua4");
 
-  var orangeA1=$("#oA1").attr("value");
-  var orangeA2=$("#oA2").attr("value");
-  var orangeA3=$("#oA3").attr("value");
-  var orangeA4=$("#oA4").attr("value");
+  var orangeA1=$("#oA1").attr("data-oa1");
+  var orangeA2=$("#oA2").attr("data-oa2");
+  var orangeA3=$("#oA3").attr("data-oa3");
+  var orangeA4=$("#oA4").attr("data-oa4");
 
   console.log(brownQ1);
   console.log(orangeA1);
